@@ -1,0 +1,118 @@
+/* Front Page Css Start */
+
+// Header Section Css Here
+header{
+    opacity: 0;
+    padding: 10px 0;
+        .call-sec{
+        a{
+            display: flex;
+            align-items: center;
+            color: $black-color;
+            font-size: 16px;
+            img{
+                margin-right: 5px;
+            }
+        }
+    }
+}
+.logo-sec{
+    img{
+        max-width: 180px;
+        max-height: 60px;
+    }
+}
+
+// Banner Section Css Here
+.cus-banner{
+    width: 100%;
+    display: inline-block;
+    // background-image: url("/public/assets/images/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    object-fit: cover;
+    .banner-con{
+        position: absolute;
+        right: 0;
+        top: 100px;
+        .banner-btns-group{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            button{
+                margin-right: 10px;
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+// Business Benefits Section Css Here
+.cus-business-benefits{
+    opacity: 0;
+    .card-sec{
+        width: 100%;
+        display: inline-block;
+        padding: 30px;
+        background: $bg-color;
+        border-radius: 18px;
+        .card-img{
+            width: 100%;
+            display: inline-block;
+            height: 205px;
+            overflow: hidden;
+            img{
+                width: 100%;
+                display: inline-block;
+                object-fit: cover;
+            }
+        }
+        h2{
+            font-size: 24px;
+            margin: 20px 0;
+            min-height: 100px;
+            color: $grey-color;
+        }
+    }
+}
+
+// Footer Section Css Here
+footer{
+    opacity: 0;
+    padding: 20px 0;
+    .copy-right{
+        p {
+            color: $grey-light-color;
+            font-weight: 300;
+            font-size: 14px;
+            letter-spacing: 0.28px;
+        }
+    }
+    .footer-right {
+        display: flex;
+        align-items: center;
+        ul{
+            margin-right: 50px;
+            li{
+                margin: 0 8px;
+                a{
+                    display: flex;
+                }
+            }
+        }
+        .chat-sec {
+            width: 60px;
+            height: 60px;
+            background-color: $primary-color;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @include box-shadow;
+        }
+    }
+}
+/* Front Page Css Ends */

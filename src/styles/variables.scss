@@ -1,0 +1,18 @@
+// Theme Color Variables//
+$primary-color: #1D76F2;
+$white-color: #ffffff;
+$black-color: #000000;
+$grey-color: #1E1E1E;
+$grey-light-color: #9B9B9B;
+$shadow-color: #00000029;
+$bg-color: #ECF3FF;
+
+$primary-btn-color: #7C24EF;
+$secondary-btn-color: #1660EA;
+
+@mixin box-shadow {
+    -webkit-box-shadow: 0px 5px 21px $shadow-color;
+    -moz-box-shadow: 0px 5px 21px $shadow-color;
+    box-shadow: 0px 5px 21px $shadow-color;
+}
+
