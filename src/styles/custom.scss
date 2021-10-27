@@ -2,7 +2,6 @@
 
 // Header Section Css Here
 header{
-    opacity: 0;
     padding: 10px 0;
         .call-sec{
         a{
@@ -27,11 +26,18 @@ header{
 .cus-banner{
     width: 100%;
     display: inline-block;
-    // background-image: url("/public/assets/images/banner.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 400px;
-    object-fit: cover;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    .banner-img {
+        width: 100%;
+        display: inline-block;
+        img{
+            width: 100%;
+            display: inline-block;
+            object-fit: cover;
+        }
+    }
     .banner-con{
         position: absolute;
         right: 0;
@@ -52,7 +58,6 @@ header{
 
 // Business Benefits Section Css Here
 .cus-business-benefits{
-    opacity: 0;
     .card-sec{
         width: 100%;
         display: inline-block;
@@ -81,7 +86,6 @@ header{
 
 // Footer Section Css Here
 footer{
-    opacity: 0;
     padding: 20px 0;
     .copy-right{
         p {

@@ -5,6 +5,9 @@ import { Container, Grid, Button } from '@mui/material'
 export default function Banner() {
     return(
         <section className="cus-banner">
+            <div className="banner-img">
+                <img src="./assets/images/banner.png" alt="" />
+            </div>
             <Container>
                 <Grid item lg={12} md={12} sm={12} xs={12}>
                     <div className="banner-con">
